@@ -1,0 +1,23 @@
+version: '1'
+services:
+  react: 
+    image: reactuiimage
+    build:
+      context: ./frontend
+    ports: 
+     - 3000:3000
+  chatdev:
+    image: chatdev
+    build:
+      context: ./backend
+    ports:
+     - 9000:9000
+  nginx:
+    image: proxy
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - react
+      - chatdev

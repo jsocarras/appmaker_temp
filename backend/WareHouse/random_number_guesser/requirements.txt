@@ -1,0 +1,3 @@
+tkinter==<version>
+numpy==1.19.2
+pandas==<version>

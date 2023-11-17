@@ -1,0 +1,385 @@
+:root {
+  --gray: #353541;
+  --orange: #F18544;
+  --black: #040405d6;
+  --lightblack: #7f7f8fd6;
+  --white: antiquewhite;
+}
+
+/* Below is for CreoGPT page */
+
+.convo-section {
+margin: 8rem 0 0 0;
+width: 80vw;
+height: calc(100vh - 15rem); 
+/* 1rem = 16px */
+/* height starts to look funky on shortest of screen */
+overflow: scroll;
+}
+
+.convo-bubble {
+width: 70%;
+border-radius: 20px;
+min-height: 8vh;
+}
+
+.convo-content {
+margin: 1%;
+}
+
+.query-input {
+height: 60px;
+position: fixed;
+bottom: 5vh;
+width: 80vw;
+}
+
+.query-text {
+background-color: var(--orange);
+border-top-right-radius: 0;
+}
+
+.response-text {
+background-color: var(--white);
+border-top-left-radius: 0;
+}
+
+/* Below is for pdf chat */
+
+.file-upload-info {
+background-color: var(--black);
+color: var(--white);
+}
+
+/* Below is for landing page */
+
+.bold {
+font-weight: 800;
+}
+
+@import url(https://fonts.google.com/specimen/Fahkwang?query=fa);
+body {
+background-color: var(--gray);
+padding: 0;
+margin: 0;
+
+}
+
+/* span {
+position: relative;
+}
+
+span::after {
+background-color: #fffcd6;
+content: "";
+width: 100%;
+height: 50%;
+position: absolute;
+bottom: -4px;
+left: 0;
+z-index: -1;
+} */
+
+p a {
+color: #184DA8;
+text-decoration: none;
+}
+
+p a:hover {
+text-decoration: underline;
+}
+
+.center-align {
+margin: 0 auto;
+width: 88vw;
+}
+
+/******* COLOR SETTINGS *******/  
+.black {
+color: black;
+}
+
+.white {
+color: white;
+}
+
+.orange {
+color: #F18544;
+}
+
+.bg-grey {
+background-color: grey;
+}
+
+.bg-white {
+background-color: white;
+}
+
+.bg-black {
+background-color: black;
+}
+
+/******** DETAILS: SKEW - Settings ********/ 
+.rectangle {
+height: 100px;
+margin-top: -50px;
+}
+
+.skew-left {
+transform: skewY(-3deg);
+}
+
+.skew-right {
+transform: skewY(3deg);
+/****** BUTTONS Settings ******/
+}
+
+.custom-btn {
+border: 5px solid;
+border-radius: 3px;
+padding: 15px 40px;
+margin: 5px;
+text-decoration: none;
+}
+
+.btn-small {
+border: 3px solid;
+border-radius: 1px;
+padding: 15px 40px;
+margin: 5px;
+text-decoration: none;
+}
+
+
+.btn-black {
+border-color: black;
+color: black;
+}
+
+.btn-black:hover {
+background-color: black;
+border-color: white;
+color: white;
+}
+
+.btn-white {
+border-color: white;
+color: white;
+}
+
+.btn-white:hover {
+background-color: white;
+border-color: white;
+color: grey;
+}
+
+.btn-orange {
+border-color: #F18544;
+color: #F18544;
+}
+
+/******** MISCELANEA *********/
+.section-columns > div {
+display: inline-block;
+vertical-align: top;
+width: 49%;
+}
+
+@import url(https://fonts.google.com/specimen/Fahkwang?query=fa);
+.section-columns h1 {
+font-size: 80px;
+}
+
+@import url(https://fonts.google.com/specimen/Fahkwang?query=fa);
+#intro-container .section-columns h2 {
+padding-top: 120px;
+padding-bottom: 30px;
+}
+
+@import url(https://fonts.google.com/specimen/Fahkwang?query=fa);
+.section-columns h3 {
+font-size: 26px;
+font-weight: bold;
+line-height: 40px;
+}
+
+@import url(https://fonts.google.com/specimen/Fahkwang?query=fa);
+.section-columns p {
+font-weight: lighter;
+font-size: 20px;
+line-height: 30px;
+padding-bottom: 10px;
+}
+
+.section-columns #image-bg {
+background-image: url("https://static.pexels.com/photos/201582/pexels-photo-201582.jpeg");
+background-repeat: no-repeat;
+background-size: 750px;
+background-position: -140px -80px;
+height: 600px;
+}
+
+/* Example CSS class to move elements to the right */
+.moveRight {
+transform: translateX(100px); /* Change the value as needed */
+}
+
+/* Example CSS class to move elements to the left */
+.moveLeft {
+transform: translateX(-100px); /* Change the value as needed */
+}
+
+/* Example CSS class to move elements upward */
+.moveUp {
+transform: translateY(-50px); /* Change the value as needed */
+}
+
+/* Example CSS class to move elements downward */
+.moveDown {
+transform: translateY(50px); /* Change the value as needed */
+}
+
+
+/******** SECCION UNO: INTRODUCCION ********/
+#intro-container {
+height: 700px;
+margin-top: 0px;
+padding-top: 0px;
+background-image: url("http://static1.1.sqspcdn.com/static/f/476018/23922700/1384888028190/bowie_DOS_01.jpg?token=je%2FzyswYN5iMLvTg1cXC1cPY6mY%3D");
+background-size: 100%;
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+
+.darken-image {
+filter: brightness(40%);
+}
+
+/******** SECCION UNO: Menu - settings ********/
+#intro-container nav {
+margin: 0;
+padding: 0;
+}
+
+#intro-container nav div {
+display: inline-block;
+vertical-align: top;
+}
+
+#intro-container nav #logo {
+width: 9%;
+}
+
+#intro-container nav #menu-lista {
+width: 89%;
+text-align: right;
+}
+
+#intro-container nav #menu-lista ul {
+margin: 0;
+padding: 0;
+}
+
+#intro-container nav #menu-lista ul li {
+display: inline-block;
+padding: 0;
+margin: 0 5px;
+list-style: none;
+}
+
+#intro-container nav #menu-lista ul li a {
+color: #777;
+text-decoration: none;
+}
+
+#intro-container nav #menu-lista ul li a:hover {
+color: white;
+text-decoration: underline;
+}
+
+/********* SECCIÓN TRES: PROYECTOS *********/
+#project-container {
+background-color: grey;
+padding-top: 0.1px;
+}
+
+#project-container-bl {
+background-color: var(--lightblack);
+padding-top: 0.1px;
+}
+/******* SECCIONES RESTANTES: Backgrounds *******/
+.section-columns #bio {
+height: 750px;
+}
+
+#work, #work02, #work03, #work04 {
+margin-top: -50px;
+padding-top: 150px;
+background-repeat: no-repeat;
+background-size: 550px;
+background-position: right center;
+height: 600px;
+}
+
+#work {
+background-image: url("https://placeimg.com/750/600/architecture/grayscale");
+}
+
+#work02 {
+background-image: url("https://placeimg.com/750/600/nature/grayscale");
+}
+
+#work03 {
+background-image: url("https://placeimg.com/750/600/tech/grayscale");
+}
+
+#work04 {
+background-image: url("https://placeimg.com/750/600/animals/grayscale");
+}
+
+/***** FOOTER Settings ******/
+footer {
+padding-top: 0.1px;
+}
+
+#footer {
+height: 550px;
+margin-top: -50px;
+padding-top: 50px;
+background-image: url("http://static1.1.sqspcdn.com/static/f/476018/23922700/1384888028190/bowie_DOS_01.jpg?token=je%2FzyswYN5iMLvTg1cXC1cPY6mY%3D");
+background-size: 100%;
+filter: brightness(10%);
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+
+#footer h3 {
+color: white;
+padding-top: 70px;
+margin: 0;
+width: min-content;
+}
+
+df-messenger {
+ --df-messenger-bot-message: #CD040B;
+ --df-messenger-button-titlebar-color: #CD040B;
+ --df-messenger-chat-background-color: #fafafa;
+ --df-messenger-font-color: white;
+ --df-messenger-send-icon: #878fac;
+ --df-messenger-user-message: #000000;
+}
+
+
+#footer p {
+color: grey;
+padding-bottom: 30px;
+}
+
+/*#footer a
+* margin-right: 5px */
+
+@media only screen and (max-width: 1200px) {
+h1, .btn-section {
+  margin-right: 50%;
+}
+}

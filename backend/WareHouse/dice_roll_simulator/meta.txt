@@ -1,0 +1,31 @@
+Task:
+Create a Python script for a dice roll simulator to be integrated into a Streamlit web application. The script should allow users to select the number of dice (between 1 and 6) and then simulate rolling them, displaying the result of each die. The game should be structured for easy integration with Streamlit, with attention to session state management for maintaining any ongoing state between interactions.
+
+Config:
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+streamlit
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+4.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+
